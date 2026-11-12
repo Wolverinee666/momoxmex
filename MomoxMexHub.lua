@@ -5,11 +5,11 @@ local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 
-local old = playerGui:FindFirstChild("BreakAndStealHub")
+local old = playerGui:FindFirstChild("MomoxMexHub")
 if old then old:Destroy() end
 
 local gui = Instance.new("ScreenGui")
-gui.Name = "BreakAndStealHub"
+gui.Name = "MomoxMexHub"
 gui.ResetOnSpawn = false
 gui.Parent = playerGui
 
@@ -29,7 +29,7 @@ corner.Parent = main
 local title = Instance.new("TextLabel")
 title.Size = UDim2.new(1, -42, 0, 45)
 title.BackgroundColor3 = Color3.fromRGB(105, 65, 220)
-title.Text = "BREAK & STEAL EGG"
+title.Text = "MomoxMex Hub"
 title.TextColor3 = Color3.new(1, 1, 1)
 title.TextSize = 17
 title.Font = Enum.Font.GothamBold
